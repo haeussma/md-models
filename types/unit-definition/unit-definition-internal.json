@@ -8,9 +8,7 @@
           "name": "id",
           "multiple": false,
           "is_id": false,
-          "dtypes": [
-            "string"
-          ],
+          "dtypes": ["string"],
           "docstring": "Unique identifier of the unit definition.",
           "options": [],
           "term": null,
@@ -24,9 +22,7 @@
           "name": "name",
           "multiple": false,
           "is_id": false,
-          "dtypes": [
-            "string"
-          ],
+          "dtypes": ["string"],
           "docstring": "Common name of the unit definition.",
           "options": [],
           "term": null,
@@ -40,9 +36,7 @@
           "name": "base_units",
           "multiple": true,
           "is_id": false,
-          "dtypes": [
-            "BaseUnit"
-          ],
+          "dtypes": ["BaseUnit"],
           "docstring": "Base units that define the unit.",
           "options": [],
           "term": null,
@@ -62,9 +56,7 @@
           "name": "kind",
           "multiple": false,
           "is_id": false,
-          "dtypes": [
-            "UnitType"
-          ],
+          "dtypes": ["UnitType"],
           "docstring": "Kind of the base unit (e.g., meter, kilogram, second).",
           "options": [],
           "term": null,
@@ -78,9 +70,7 @@
           "name": "exponent",
           "multiple": false,
           "is_id": false,
-          "dtypes": [
-            "integer"
-          ],
+          "dtypes": ["integer"],
           "docstring": "Exponent of the base unit in the unit definition.",
           "options": [],
           "term": null,
@@ -94,9 +84,7 @@
           "name": "multiplier",
           "multiple": false,
           "is_id": false,
-          "dtypes": [
-            "float"
-          ],
+          "dtypes": ["float"],
           "docstring": "Multiplier of the base unit in the unit definition.",
           "options": [],
           "term": null,
@@ -110,9 +98,7 @@
           "name": "scale",
           "multiple": false,
           "is_id": false,
-          "dtypes": [
-            "float"
-          ],
+          "dtypes": ["float"],
           "docstring": "Scale of the base unit in the unit definition.",
           "options": [],
           "term": null,
@@ -134,6 +120,7 @@
         "AVOGADRO": "avogadro",
         "BECQUEREL": "becquerel",
         "CANDELA": "candela",
+        "CELSIUS": "celsius",
         "COULOMB": "coulomb",
         "DIMENSIONLESS": "dimensionless",
         "FARAD": "farad",
